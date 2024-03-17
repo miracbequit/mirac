@@ -140,7 +140,7 @@ document.addEventListener('keydown', function (event) {
 
  
     window.addEventListener("beforeunload", function (e) {
-        var confirmationMessage = "Sayfayı kapatmak istediğinizden emin misiniz?";
+        var confirmationMessage = "Sayfayı kapatmak istediğinizden emin misin?";
     e.returnValue = confirmationMessage;
     return confirmationMessage;
     });
